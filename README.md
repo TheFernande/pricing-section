@@ -10,6 +10,12 @@
 
 ### Git setup
 
+- Check if the current repository is pointing to a remote repository
+
+```bash
+git remote -v
+```
+
 - Remove the `git remote` pointing to this repository
 
 ```bash
@@ -17,7 +23,7 @@ git remote remove origin
 ```
 
 - Create a new repository in your GitHub account `https://github.com/TheFernande?tab=repositories`
-- Add the new repository as the `origin` remote `https://github.com/TheFernande/<your_repository_name>`
+- Add the new repository as the `origin` remote `https://github.com/TheFernande/<your_repository_name>.git`
 
 ```bash
 git remote add origin <your_repository_url>
