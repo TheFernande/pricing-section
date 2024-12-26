@@ -56,8 +56,15 @@ yarn run build
 ```bash
 git add .
 git commit -m "<commit_message>"
-git push origin main
+git push --set-upstream origin main
 ```
+
+- Explanation of the `git push --set-upstream origin main` command
+
+- `git push` -> Push the changes to the remote repository
+- `--set-upstream` -> Create a new branch in the remote repository with the same name as the current branch
+- `origin` -> The remote repository
+- `main` -> The current branch
 
 ## Useful commands
 
