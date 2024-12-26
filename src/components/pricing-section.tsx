@@ -80,7 +80,7 @@ export default function PricingSection() {
             Pay once, use it forever. <span className='md:block'>No strings attached.</span>
           </p>
           <button
-            className='rounded bg-indigo-700 py-2.5 text-base text-white hover:bg-indigo-800 focus:bg-indigo-800 focus:shadow-[0px_0px_3px_4px_rgba(68,76,231,0.12)] disabled:cursor-not-allowed disabled:bg-neutral-100 disabled:text-neutral-400'
+            className='rounded bg-indigo-700 py-2.5 text-base text-white hover:bg-indigo-800 focus:bg-indigo-800 focus:shadow-[0px_0px_3px_4px_rgba(68,76,231,0.12)] disabled:cursor-not-allowed disabled:bg-neutral-100 disabled:text-neutral-400 md:py-3'
             type='button'
             aria-label='Buy now'
           >
