@@ -34,12 +34,12 @@ export default function PricingSection() {
         </p>
       </div>
 
-      <article className='flex flex-col gap-8 lg:flex-row'>
+      <article className='flex flex-col gap-8 lg:flex-row lg:justify-between'>
         <div className='flex flex-col gap-8 text-start md:gap-16 lg:justify-center'>
           <h3 className='text-2xl font-semibold text-neutral-900 md:text-4xl'>
             Unlock creativity&nbsp;once, enjoy forever
           </h3>
-          <ul className='flex flex-col items-start gap-5'>
+          <ul className='flex flex-col items-start gap-5 px-4'>
             <li className='flex flex-row gap-3 align-middle text-lg font-normal text-neutral-600'>
               <IconCheckFill />
               128 available credits for all images
@@ -66,7 +66,7 @@ export default function PricingSection() {
         </div>
 
         {/* Card */}
-        <div className='flex flex-col gap-8 rounded-lg border border-neutral-200 px-8 py-8 text-center shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-2px_rgba(0,0,0,0.05)] lg:flex-1'>
+        <div className='flex flex-col gap-8 rounded-lg border border-neutral-200 px-8 py-8 text-center shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-2px_rgba(0,0,0,0.05)] lg:w-[487px]'>
           <div className='flex flex-col gap-2'>
             <span className='w-fit self-center rounded-full border border-green-200 bg-green-50 px-2.5 py-1 text-sm text-green-700'>
               Popular
